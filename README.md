@@ -9,7 +9,7 @@ LiteLLM, BaseInfra application code, credentials, or webhook secrets.
 ## Image
 
 ```text
-ghcr.io/baseinfra/smee-client:5.0.0-baseinfra1
+ghcr.io/basedinfra/smee-client:5.0.0-baseinfra1
 ```
 
 BaseInfra deploys should pin an explicit tag. Do not use `latest`.
@@ -17,7 +17,7 @@ BaseInfra deploys should pin an explicit tag. Do not use `latest`.
 ## Usage
 
 ```sh
-docker run --rm ghcr.io/baseinfra/smee-client:5.0.0-baseinfra1 \
+docker run --rm ghcr.io/basedinfra/smee-client:5.0.0-baseinfra1 \
   --url https://smee.io/example-channel \
   --target http://baseinfra-web:3000/api/webhooks/github
 ```

@@ -14,7 +14,7 @@ permissions:
     packages: write
 
 env:
-    IMAGE_NAME: ghcr.io/baseinfra/smee-client
+    IMAGE_NAME: ghcr.io/basedinfra/smee-client
 
 jobs:
     docker:
