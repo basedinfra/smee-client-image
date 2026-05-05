@@ -1,0 +1,16 @@
+{
+    "name": "smee-client-image",
+    "version": "5.0.0-baseinfra1",
+    "private": true,
+    "description": "BaseInfra-owned Docker image for smee-client.",
+    "license": "MIT",
+    "engines": {
+        "node": ">=22"
+    },
+    "scripts": {
+        "audit": "npm audit --omit=dev"
+    },
+    "dependencies": {
+        "smee-client": "5.0.0"
+    }
+}
