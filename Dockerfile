@@ -1,6 +1,6 @@
 # syntax=docker/dockerfile:1
 
-FROM node:25-alpine
+FROM node:26-alpine
 
 ENV NODE_ENV=production
 WORKDIR /app
